@@ -32,7 +32,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push gmocamarena/github-actions:0.0.2 .
+        docker push gmocamarena/github-actions:0.0.2
 
     
     
