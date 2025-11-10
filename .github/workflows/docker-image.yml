@@ -29,10 +29,12 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t gmocamarena/github-actions:0.0.2 .
+        docker build -t gmocamarena/github-actions:latest .
 
     - name: Push Docker Image
       run: |
         docker push gmocamarena/github-actions:0.0.2
+        docker push gmocamarena/github-actions:latest
 
     
     
